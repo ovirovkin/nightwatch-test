@@ -1,9 +1,8 @@
-# Example of Travis CI + Nightwatch
+# Example of Travis CI / CircleCI + Nightwatch
 
-* [travis-ci.org](https://travis-ci.org/)
-* [nightwatchjs.org](http://nightwatchjs.org/)
-
-![Build Status](https://travis-ci.org/ovirovkin/nightwatch-test.svg)
+* [Travis CI](https://travis-ci.org/)
+* [CircleCI](https://circleci.com/)
+* [Nightwatch.js](http://nightwatchjs.org/)
 
 ### Prerequisites
 * Install Node.js
@@ -38,3 +37,14 @@ Please use [Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows
 git flow feature start feature_branch
 git flow feature finish feature_branch
 ```
+Once your branch is ready, please create pull request to `develop` and assign at least one reviewer to review your change. You are all set to complete your pull request, when you have at least one approval and build is passing.
+
+### Continuous Integration
+
+This repo uses two continuous integration services as an example, please find builds here:
+[Travis CI](https://travis-ci.org/ovirovkin/nightwatch-test/builds)
+![Build Status](https://travis-ci.org/ovirovkin/nightwatch-test.svg)
+[CircleCI](https://circleci.com/gh/ovirovkin/nightwatch-test)
+![Build Status](https://circleci.com/gh/ovirovkin/nightwatch-test.png)
+
+It's going to trigger build and run tests for every single change on your branch automatically. 
