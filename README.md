@@ -41,10 +41,10 @@ Once your branch is ready, please create pull request to `develop` and assign at
 
 ### Continuous Integration
 
-This repo uses two continuous integration services as an example, please find builds here:
-[Travis CI](https://travis-ci.org/ovirovkin/nightwatch-test/builds)
-![Build Status](https://travis-ci.org/ovirovkin/nightwatch-test.svg)
-[CircleCI](https://circleci.com/gh/ovirovkin/nightwatch-test)
-![Build Status](https://circleci.com/gh/ovirovkin/nightwatch-test.png)
+This repo uses two continuous integration services as an example, please find builds here: <br>
+[Travis CI](https://travis-ci.org/ovirovkin/nightwatch-test/builds) <br>
+![Build Status](https://travis-ci.org/ovirovkin/nightwatch-test.svg) <br>
+[CircleCI](https://circleci.com/gh/ovirovkin/nightwatch-test) <br>
+![Build Status](https://circleci.com/gh/ovirovkin/nightwatch-test.png) <br>
 
 It's going to trigger build and run tests for every single change on your branch automatically. 
