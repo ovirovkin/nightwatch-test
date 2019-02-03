@@ -28,9 +28,6 @@ npm install
 npm test
 ```
 
-<<<<<<< HEAD
-An output of tests execution is xml file and screenshots (if applicable). Results could be found in `test-results` folder per specified version of the repo, example: `test-results/0.0.1/`  
-=======
 An output of tests execution is xml file and screenshots (if applicable). Results could be found in `test-results` folder per specified version of the repo, example: `test-results/0.0.1/` 
 
 ### Gitflow Workflow
@@ -41,4 +38,3 @@ Please use [Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows
 git flow feature start feature_branch
 git flow feature finish feature_branch
 ```
->>>>>>> release/0.1.0
