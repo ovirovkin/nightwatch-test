@@ -48,4 +48,4 @@ This repo uses two continuous integration services as an example, please find bu
 [Travis CI](https://travis-ci.org/ovirovkin/nightwatch-test/builds) <br>
 [CircleCI](https://circleci.com/gh/ovirovkin/nightwatch-test) <br>
 
-It's going to trigger build and run tests for every single change on your branch automatically. 
+It's going to trigger build and run tests for every single change on your branch automatically.  
