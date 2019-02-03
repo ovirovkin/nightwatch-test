@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/nightwatch-test
     docker:
-      - image: circleci/node:10.15.1
+      - image: karthikiyengar/node-nightwatch:0.0.2
     steps:
       - checkout
       - run:
