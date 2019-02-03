@@ -5,7 +5,7 @@ module.exports = {
 
   beforeEach(browser, done) {
     searchPage = browser.page.emojiSearch();
-    searchPage.maximizeWindow().navigate().waitForElementVisible('@emojiImages', function(){
+    searchPage.navigate().waitForElementVisible('@emojiImages', function(){
       done();
     });
   },

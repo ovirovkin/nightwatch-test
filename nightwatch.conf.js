@@ -27,18 +27,24 @@ module.exports = {
         "waitForConditionTimeout": 5000
       },
       "desiredCapabilities": {
-        "browserName": "chrome"
-      }
-    },
-    "chrome": {
-      "desiredCapabilities": {
         "browserName": "chrome",
         "javascriptEnabled": true,
+        "acceptSslCerts": true,
         "chromeOptions" : {
-          "args" : ["start-fullscreen"]
+          "args" : ["headless"],
         }
       }
-    }
+    },
+    // "chrome": {
+    //   "desiredCapabilities": {
+    //     "browserName": "chrome",
+    //     "javascriptEnabled": true,
+    //     "acceptSslCerts": true,
+    //     "chromeOptions" : {
+    //       "args" : ["headless"],
+    //     }
+    //   }
+    // }
   }
 }
 
