@@ -35,16 +35,16 @@ module.exports = {
         }
       }
     },
-    // "chrome": {
-    //   "desiredCapabilities": {
-    //     "browserName": "chrome",
-    //     "javascriptEnabled": true,
-    //     "acceptSslCerts": true,
-    //     "chromeOptions" : {
-    //       "args" : ["headless"],
-    //     }
-    //   }
-    // }
+    "chrome": {
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true,
+        "chromeOptions" : {
+          "args" : ["headless"],
+        }
+      }
+    }
   }
 }
 

@@ -1,7 +1,7 @@
 {
   "name": "nightwatch-test",
   "version": "0.0.0",
-  "description": "nightwatchjs tests",
+  "description": "nightwatchjs tests with Travis CI",
   "main": "index.js",
   "scripts": {
     "test": "nightwatch --config nightwatch.conf.js"

@@ -24,8 +24,10 @@ module.exports = {
       .saveScreenshot(config.imgpath(browser) + 'nightwatch-roolz2.png')
   },
 
-  after(searchPage) {
-    searchPage.end();
+  after(searchPage, done) {
+    searchPage.end(function() {
+      done()
+    })
   }
 
 };
