@@ -4,8 +4,6 @@
 * [CircleCI](https://circleci.com/)
 * [Nightwatch.js](http://nightwatchjs.org/)
 
-![Build Status](https://travis-ci.org/ovirovkin/nightwatch-test.svg)
-
 ### Prerequisites
 * Install Node.js
 * Install Java/JDK 
@@ -45,6 +43,8 @@ Once your branch is ready, please create pull request to `develop` and assign at
 
 This repo uses two continuous integration services as an example, please find builds here:
 [Travis CI](https://travis-ci.org/ovirovkin/nightwatch-test/builds)
+![Build Status](https://travis-ci.org/ovirovkin/nightwatch-test.svg)
 [CircleCI](https://circleci.com/gh/ovirovkin/nightwatch-test)
+![Build Status](https://circleci.com/gh/ovirovkin/nightwatch-test.png)
 
 It's going to trigger build and run tests for every single change on your branch automatically. 
