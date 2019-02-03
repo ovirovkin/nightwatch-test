@@ -28,4 +28,4 @@ npm install
 npm test
 ```
 
-An output of tests execution is xml file and screenshots (if applicable). Results could be found in `test-results` folder per specified version of the repo, example: `test-results/0.0.1/` 
+An output of tests execution is xml file and screenshots (if applicable). Results could be found in `test-results` folder per specified version of the repo, example: `test-results/0.0.1/`  
