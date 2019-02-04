@@ -34,7 +34,7 @@ An output of tests execution is xml file and screenshots (if applicable). Result
 
 ### Gitflow Workflow
 
-Please use [Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) workflow to create and manage branches for features, releases, etc. [Gitflow Cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/)
+Please use [Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) workflow to create and manage branches for features, releases, etc. [Gitflow Cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/) 
 
 ```sh
 git flow feature start feature_branch
