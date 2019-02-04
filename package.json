@@ -1,6 +1,6 @@
 {
   "name": "nightwatch-test",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "nightwatchjs tests with Travis CI",
   "main": "index.js",
   "scripts": {
