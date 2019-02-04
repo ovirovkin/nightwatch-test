@@ -30,11 +30,11 @@ npm install
 npm test
 ```
 
-An output of tests execution is xml file and screenshots (if applicable). Results could be found in `test-results` folder per specified version of the repo, example: `test-results/0.0.1/` 
+An output of tests execution is xml file and screenshots (if applicable). Results could be found in `test-results` folder per specified version of the project, example: `test-results/0.0.1/` 
 
 ### Gitflow Workflow
 
-Please use [Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) workflow to create and manage branches for features, releases, etc. [Gitflow Cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/)
+Please use [Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) workflow to create and manage branches for features, releases, etc. [Gitflow Cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/) 
 
 ```sh
 git flow feature start feature_branch
