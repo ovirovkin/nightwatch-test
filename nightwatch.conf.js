@@ -5,7 +5,7 @@ const TEST_RESULTS_PATH = "./test-results/" + PKG.version + "/";
 
 module.exports = {
   "src_folders": [ "tests" ],
-  "page_objects_path": "pages",
+  "page_objects_path": [ "pages", "pages/home", "pages/components/dialogs", "pages/components/header" ],
   "output_folder": TEST_RESULTS_PATH,
   "selenium": {
     "start_process": true,
