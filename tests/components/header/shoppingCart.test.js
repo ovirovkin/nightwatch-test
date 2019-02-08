@@ -12,7 +12,7 @@ module.exports = {
 
   'Cart counter increased when adding item to cart': function(browser) {
     homePage.addProductToCart('Blouse');
-    browser.page.successDialog().click('@continueShopping');
+    browser.page.successDialog().closeDialog();
 
     browser.page.header()
       .moveToElement('@viewMyShoppingCart', 5, 5)
@@ -24,7 +24,7 @@ module.exports = {
 
   'Can find added product in the cart': function(browser) {
     homePage.addProductToCart('Blouse');
-    browser.page.successDialog().click('@continueShopping');
+    browser.page.successDialog().closeDialog();
 
     browser.page.header()
       .moveToElement('@viewMyShoppingCart', 5, 5)
@@ -40,11 +40,11 @@ module.exports = {
     browser
     .perform(function() {
       homePage.addProductToCart('Blouse');
-      browser.page.successDialog().click('@continueShopping');
+      browser.page.successDialog().closeDialog();
     })
     .perform(function() {
       homePage.addProductToCart('Faded Short Sleeve T-shirts');
-    browser.page.successDialog().click('@continueShopping');
+    browser.page.successDialog().closeDialog();
     });
     
     browser.page.header()
@@ -56,7 +56,7 @@ module.exports = {
 
   'Cart displays correct shipping and total': function(browser) {
     homePage.addProductToCart('Blouse');
-    browser.page.successDialog().click('@continueShopping');
+    browser.page.successDialog().closeDialog();
 
     browser.page.header()
       .moveToElement('@viewMyShoppingCart', 5, 5)
@@ -67,7 +67,7 @@ module.exports = {
 
   'Can remove product from cart': function(browser) {
     homePage.addProductToCart('Blouse');
-    browser.page.successDialog().click('@continueShopping');
+    browser.page.successDialog().closeDialog();
 
     browser.page.header()
       .moveToElement('@viewMyShoppingCart', 5, 5)
@@ -78,7 +78,7 @@ module.exports = {
 
   'Checkout link redirects to order page': function(browser) {
     homePage.addProductToCart('Blouse');
-    browser.page.successDialog().click('@continueShopping');
+    browser.page.successDialog().closeDialog();
 
     browser.page.header()
       .moveToElement('@viewMyShoppingCart', 5, 5)
