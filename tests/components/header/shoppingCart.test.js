@@ -15,9 +15,10 @@ module.exports = {
     browser.page.successDialog().click('@continueShopping');
 
     browser.page.header()
+      .moveToElement('@viewMyShoppingCart', 5, 5)
       .assert.containsText('@cartQuantity', '1')
-      .assert.visible('@product')
-      .assert.hidden('@products')
+      .assert.attributeContains('@product', 'style', 'display: inline;')
+      .assert.attributeContains('@products', 'style', 'display: none;')
       .saveScreenshot(config.TEST_RESULTS_PATH + 'Cart-counter-increased-when-adding-item-to-cart.png')
   },
 
