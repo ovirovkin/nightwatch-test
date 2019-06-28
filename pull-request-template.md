@@ -1,9 +1,9 @@
 Pull Request Checklist:
 
-
-- [ ] Conform to the coding conventions
+- [ ] Code follows coding conventions
 - [ ] No redundant or duplicate code
+    - [ ] Test
 - [ ] Code modular as possible
 - [ ] Code comments explaining why instead of what
-- [ ] Appropriate tests written (Unit, Component, Battery) to validate code change
-- [ ] Test
+- [ ] Added tests to cover my changes (Unit, Component, UAT, Battery)
+- [ ] Updated the documentation accordingly
