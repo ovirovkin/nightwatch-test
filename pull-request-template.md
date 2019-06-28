@@ -1,5 +1,9 @@
 Pull Request Checklist:
 
-- [ ] Finish my changes
-- [ ] Push my commits to GitHub
-- [ ] Open a pull request
+
+- [ ] Conform to the coding conventions
+- [ ] No redundant or duplicate code
+- [ ] Code modular as possible
+- [ ] Code comments explaining why instead of what
+- [ ] Appropriate tests written (Unit, Component, Battery) to validate code change
+- [ ] 
